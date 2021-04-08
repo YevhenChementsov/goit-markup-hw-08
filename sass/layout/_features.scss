@@ -1,0 +1,16 @@
+.features {
+	padding-top: 94px;
+	padding-bottom: 47px;
+
+	&__list {
+		display: flex;
+		list-style: none;
+	}
+
+	&__item {
+		max-width: 270px;
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+}
