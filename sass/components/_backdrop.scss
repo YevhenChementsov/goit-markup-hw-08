@@ -1,13 +1,26 @@
-.backdrop {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.2);
+@media screen and (min-width: 480px) {
+	
 }
-.is-hidden {
-	opacity: 0;
-	visibility: hidden;
-	pointer-events: none;
+@media screen and (min-width: 768px) {
+	
 }
+@media screen and (min-width: 1200px) {
+	
+}
+
+
+
+
+// .backdrop {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100vw;
+// 	height: 100vh;
+// 	background-color: rgba(0, 0, 0, 0.2);
+// }
+// .is-hidden {
+// 	opacity: 0;
+// 	visibility: hidden;
+// 	pointer-events: none;
+// }

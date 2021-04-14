@@ -18,5 +18,8 @@
     "liveSassCompile.settings.generateMap": true,
     "liveServer.settings.port": 1235,
     "liveSassCompile.settings.autoprefix": null,
-    "editor.renderWhitespace": "boundary"
+	"editor.renderWhitespace": "none",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.tabSize": 3
 }
