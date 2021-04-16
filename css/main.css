@@ -69,7 +69,6 @@ section:not(:first-child) {
 .container {
   padding-right: 15px;
   padding-left: 15px;
-  outline: 1px solid tomato;
 }
 
 .page-header .container {
