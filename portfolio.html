@@ -73,14 +73,14 @@
         </button>
         <ul class="mobile-menu__navigation-list">
           <li class="mobile-menu__navigation-item">
-            <a
-              class="mobile-menu__navigation-link mobile-menu__navigation-link--current"
-              href="./index.html"
+            <a class="mobile-menu__navigation-link" href="./index.html"
               >Студия</a
             >
           </li>
           <li class="mobile-menu__navigation-item">
-            <a class="mobile-menu__navigation-link" href="./portfolio.html"
+            <a
+              class="mobile-menu__navigation-link mobile-menu__navigation-link--current"
+              href="./portfolio.html"
               >Портфолио</a
             >
           </li>
@@ -145,12 +145,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/techno-crack.jpg"
-                    alt="веб-сайт на ноутбуке"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/techno-crack.webp    1x,
+                        ./images/portfolio/desktop/techno-crack@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/techno-crack.jpg    1x,
+                        ./images/portfolio/desktop/techno-crack@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/techno-crack.webp    1x,
+                        ./images/portfolio/tablet/techno-crack@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/techno-crack.jpg    1x,
+                        ./images/portfolio/tablet/techno-crack@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/techno-crack@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/techno-crack.jpg"
+                      alt="веб-сайт на ноутбуке"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
@@ -166,12 +201,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/basketball.jpg"
-                    alt="два баскетболиста на постере"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/basketball.webp    1x,
+                        ./images/portfolio/desktop/basketball@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/basketball.jpg    1x,
+                        ./images/portfolio/desktop/basketball@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/basketball.webp    1x,
+                        ./images/portfolio/tablet/basketball@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/basketball.jpg    1x,
+                        ./images/portfolio/tablet/basketball@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/basketball@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/basketball.jpg"
+                      alt="два баскетболиста на постере"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -187,12 +257,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/restaurant.jpg"
-                    alt="лого ресторана"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/restaurant.webp    1x,
+                        ./images/portfolio/desktop/restaurant@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/restaurant.jpg    1x,
+                        ./images/portfolio/desktop/restaurant@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/restaurant.webp    1x,
+                        ./images/portfolio/tablet/restaurant@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/restaurant.jpg    1x,
+                        ./images/portfolio/tablet/restaurant@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/restaurant@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/restaurant.jpg"
+                      alt="лого ресторана"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -208,12 +313,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/proj-prime.jpg"
-                    alt="наушники"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/proj-prime.webp    1x,
+                        ./images/portfolio/desktop/proj-prime@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/proj-prime.jpg    1x,
+                        ./images/portfolio/desktop/proj-prime@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/proj-prime.webp    1x,
+                        ./images/portfolio/tablet/proj-prime@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/proj-prime.jpg    1x,
+                        ./images/portfolio/tablet/proj-prime@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/proj-prime@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/proj-prime.jpg"
+                      alt="наушники"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -229,12 +369,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/proj-boxes.jpg"
-                    alt="две коробки"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/proj-boxes.webp    1x,
+                        ./images/portfolio/desktop/proj-boxes@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/proj-boxes.jpg    1x,
+                        ./images/portfolio/desktop/proj-boxes@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/proj-boxes.webp    1x,
+                        ./images/portfolio/tablet/proj-boxes@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/proj-boxes.jpg    1x,
+                        ./images/portfolio/tablet/proj-boxes@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/proj-boxes@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/proj-boxes.jpg"
+                      alt="две коробки"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -250,12 +425,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/inspiration.jpg"
-                    alt="веб-сайт на мониторе"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/inspiration.webp    1x,
+                        ./images/portfolio/desktop/inspiration@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/inspiration.jpg    1x,
+                        ./images/portfolio/desktop/inspiration@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/inspiration.webp    1x,
+                        ./images/portfolio/tablet/inspiration@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/inspiration.jpg    1x,
+                        ./images/portfolio/tablet/inspiration@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/inspiration@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/inspiration.jpg"
+                      alt="веб-сайт на мониторе"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -271,12 +481,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/edition-le.jpg"
-                    alt="открытая книга"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/edition-le.webp    1x,
+                        ./images/portfolio/desktop/edition-le@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/edition-le.jpg    1x,
+                        ./images/portfolio/desktop/edition-le@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/edition-le.webp    1x,
+                        ./images/portfolio/tablet/edition-le@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/edition-le.jpg    1x,
+                        ./images/portfolio/tablet/edition-le@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/edition-le@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/edition-le.jpg"
+                      alt="открытая книга"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -292,12 +537,47 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/proj-lab.jpg"
-                    alt="бирка с названием"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/proj-lab.webp    1x,
+                        ./images/portfolio/desktop/proj-lab@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/proj-lab.jpg    1x,
+                        ./images/portfolio/desktop/proj-lab@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/proj-lab.webp    1x,
+                        ./images/portfolio/tablet/proj-lab@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/proj-lab.jpg    1x,
+                        ./images/portfolio/tablet/proj-lab@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/portfolio/mobile/proj-lab@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/proj-lab.jpg"
+                      alt="бирка с названием"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore
@@ -313,12 +593,49 @@
             <li class="portfolio__project project">
               <a href="" class="project__wrapper-link"
                 ><div class="project__overlay">
-                  <img
-                    src="./images/portfolio/growing-business.jpg"
-                    alt="загрузка приложения"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/growing-business.webp    1x,
+                        ./images/portfolio/desktop/growing-business@2x.webp 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/growing-business.jpg    1x,
+                        ./images/portfolio/desktop/growing-business@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/growing-business.webp    1x,
+                        ./images/portfolio/tablet/growing-business@2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/growing-business.jpg    1x,
+                        ./images/portfolio/tablet/growing-business@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/growing-business@2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="./images/portfolio/mobile/growing-business.jpg"
+                      alt="загрузка приложения"
+                      class="project__image"
+                    />
+                  </picture>
                   <p class="overlay__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Reprehenderit, blanditiis. Voluptatem commodi odio inventore

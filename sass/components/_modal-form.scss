@@ -115,9 +115,6 @@
 	&__agreement-link {
 		display: inline-block;
 		color: var(--accent-color);
-		text-decoration: none;
-		border-bottom: 1px solid currentColor;
-		line-height: 0.85;
 	}
 
 	&__send-button {
@@ -131,6 +128,14 @@
 			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 			border-radius: 4px;
 		}
+	}
+}
+
+
+@media screen and (max-width: 479px) {
+
+	.form__check {
+		font-size: 7px;
 	}
 }
 

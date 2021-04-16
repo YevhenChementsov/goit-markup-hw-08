@@ -169,6 +169,7 @@ section:not(:first-child) {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
+  z-index: 999;
   top: 0;
   left: 50%;
   width: 100vw;
@@ -553,6 +554,8 @@ section:not(:first-child) {
 
 .hero {
   max-width: 480px;
+  width: 100%;
+  height: 400px;
   margin: 0 auto;
   padding-top: 118px;
   padding-bottom: 198px;
@@ -770,6 +773,8 @@ section:not(:first-child) {
 }
 
 .our-team__card {
+  max-width: 450px;
+  height: auto;
   background-color: var(--white-background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -788,6 +793,7 @@ section:not(:first-child) {
     margin: -15px;
   }
   .our-team__card {
+    max-width: 354px;
     margin: 15px;
     flex-basis: calc(100% / 2 - 30px);
   }
@@ -795,15 +801,22 @@ section:not(:first-child) {
 
 @media screen and (min-width: 1200px) {
   .our-team__card {
+    max-width: 270px;
     flex-basis: calc(100% / 4 - 30px);
   }
 }
 
+.card__image {
+  width: 100%;
+}
+
 .card__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   padding-top: 30px;
-  padding-right: 122px;
   padding-bottom: 24px;
-  padding-left: 122px;
 }
 
 .card__name {
@@ -830,6 +843,8 @@ section:not(:first-child) {
   display: flex;
   align-items: center;
   list-style: none;
+  width: 206px;
+  height: 44px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1194,7 +1209,6 @@ section:not(:first-child) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
   height: 610px;
   padding-top: 40px;
   padding-right: 40px;
@@ -1244,6 +1258,18 @@ section:not(:first-child) {
 .modal__form {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 310px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1376,9 +1402,6 @@ section:not(:first-child) {
 .form__agreement-link {
   display: inline-block;
   color: var(--accent-color);
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  line-height: 0.85;
 }
 
 .form__send-button {
@@ -1392,6 +1415,12 @@ section:not(:first-child) {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+@media screen and (max-width: 479px) {
+  .form__check {
+    font-size: 7px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
