@@ -17,15 +17,18 @@
 
 @media screen and (min-width: 768px) {
 
-	.features__list {
-		display: flex;
-		flex-wrap: wrap;
-		margin: -15px;
-	}
+	.features {
+		
+		&__list {
+			display: flex;
+			flex-wrap: wrap;
+			margin: -15px;
+		}
 
-	.features__item {
-		margin: 15px;
-		flex-basis: calc(100% / 2 - 30px);
+		&__item {
+			margin: 15px;
+			flex-basis: calc(100% / 2 - 30px);
+		}
 	}
 }
 

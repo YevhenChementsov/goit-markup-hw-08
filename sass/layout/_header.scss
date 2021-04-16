@@ -86,7 +86,7 @@
 	}
 
 	&__navigation-item:not(:last-child) {
-			margin-bottom: 32px;
+		margin-bottom: 32px;
 	}
 
 
@@ -224,12 +224,15 @@
 
 
 @media screen and (max-width: 767px) {
+
 	.page-header__navigation {
 		display: none;
 	}
+
 	.page-header__contacts-list {
 		display: none;
 	}
+
 	.page-header__logo {
 		padding-top: 16px;
 		padding-bottom: 16px;
@@ -238,12 +241,15 @@
 
 
 @media screen and (min-width: 768px) {
+
 	.mobile-burger__menu {
 		display: none;
 	}
+
 	.mobile-menu {
 		display: none;
 	}
+
 	.page-header {
 	
 		&__navigation {
@@ -280,6 +286,7 @@
 
 
 @media screen and (min-width: 1200px) {
+	
 	.page-header {
 
 		.logo {

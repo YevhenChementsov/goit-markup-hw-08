@@ -15,6 +15,7 @@
 		line-height: 1.17;
 		letter-spacing: 0.01em;
 		color: var(--primary-color);
+
 		&:nth-child(-n + 4) {
 			margin-bottom: 10px;
 		}
@@ -35,6 +36,7 @@
 		transition-property: border-color;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 		&:focus {
 			outline: none;
 			border-color: var(--accent-color);
@@ -50,6 +52,7 @@
 		transition-property: fill;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 		.form__input:focus + & {
 			fill: var(--accent-color);
 		}
@@ -70,10 +73,12 @@
 		transition-property: border-color;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 		&:focus {
 			outline: none;
 			border-color: var(--accent-color);  
 		}
+
 		&::placeholder {
 			color: rgba(117, 117, 117, 0.5);
 		}
@@ -89,6 +94,7 @@
 		line-height: 1.17;
 		letter-spacing: 0.03em;
 		color: var(--secondary-color);
+
 		&::before {
 			content: "";
 			display: block;
@@ -100,12 +106,14 @@
 			transition-property: border-color;
 			transition-duration: 250ms;
 			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 			.form__term:checked + & {
 				background-color: var(--accent-color);
 				background-image: url(../images/icon-check.svg);
 				background-repeat: no-repeat;
 				background-position: center;
 			}
+
 			.form__term:focus + & {
 				border-color: var(--accent-color);
 			}
@@ -122,6 +130,7 @@
 		padding-right: 55px;
 		padding-bottom: 10px;
 		padding-left: 56px;
+		
 		&:hover,
 		&:focus {
 			background-color: #188ce8;

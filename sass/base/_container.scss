@@ -1,7 +1,6 @@
 .container {
 	padding-right: 15px;
 	padding-left: 15px;
-	outline: 1px solid tomato;
 
 	.page-header & {
 		display: flex;
@@ -35,15 +34,3 @@
 		width: 1200px;
 	}
 }
-
-
-
-
-// .container {
-// 	width: 1200px;
-// 	margin-right: auto;
-// 	margin-left: auto;
-// 	padding-left: 15px;
-// 	padding-right: 15px;
-// 	outline: 1px solid tomato;
-// }

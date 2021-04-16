@@ -16,6 +16,7 @@
 		transition-property: fill;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 		.page-header__mail:focus &,
 		.page-header__mail:hover & {
 			fill: var(--accent-color);
@@ -42,6 +43,7 @@
 		transition-property: fill;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 		.page-header__tel:focus &,
 		.page-header__tel:hover & {
 			fill: var(--accent-color);
@@ -51,9 +53,11 @@
 
 
 @media screen and (min-width: 768px) {
+
 	.mail {
 		font-size: 12px;
 	}
+
 	.tel {
 		font-size: 12px;
 	}
@@ -61,6 +65,7 @@
 
 
 @media screen and (min-width: 1200px) {
+
 	.mail {
 		display: inline-flex;
 		align-items: center;
@@ -74,6 +79,7 @@
 			height: 12px;
 		}
 	}
+	
 	.tel {
 		display: inline-flex;
 		align-items: center;
