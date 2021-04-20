@@ -169,6 +169,7 @@ section:not(:first-child) {
   justify-content: space-between;
   position: fixed;
   z-index: 999;
+  overflow-y: scroll;
   top: 0;
   left: 50%;
   width: 100vw;
@@ -184,7 +185,7 @@ section:not(:first-child) {
   transition-property: transform;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(-105%) translateX(-50%);
+  transform: translateY(-110%) translateX(-50%);
 }
 
 .mobile-menu.is-open {
@@ -242,6 +243,7 @@ section:not(:first-child) {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 64px;
 }
 
 .mobile-menu__contacts-list {
@@ -329,10 +331,10 @@ section:not(:first-child) {
     font-size: calc(30px + 10 * ((100vw - 320px) / (480 - 320)));
   }
   .mobile-menu__tel {
-    font-size: calc(26px + 8 * ((100vw - 320px) / (480 - 320)));
+    font-size: calc(24px + 10 * ((100vw - 320px) / (480 - 320)));
   }
   .mobile-menu__mail {
-    font-size: calc(20px + 4 * ((100vw - 320px) / (480 - 320)));
+    font-size: calc(16px + 8 * ((100vw - 320px) / (480 - 320)));
   }
   .mobile-menu__social-link {
     font-size: calc(10px + 8 * ((100vw - 320px) / (480 - 320)));
@@ -1208,7 +1210,10 @@ section:not(:first-child) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 610px;
+  height: 95vh;
+  max-height: 610px;
+  z-index: 999;
+  overflow-y: scroll;
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
@@ -1274,7 +1279,7 @@ section:not(:first-child) {
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
-    height: 582px;
+    max-height: 582px;
   }
 }
 

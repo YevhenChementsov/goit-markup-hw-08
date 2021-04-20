@@ -1,5 +1,4 @@
 .navigation {
-
 	&__list {
 		display: flex;
 		align-items: center;
@@ -24,11 +23,11 @@
 		transition-property: color;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-		
+
 		&--current {
 			color: var(--accent-color);
 		}
-		
+
 		&:hover,
 		&:focus {
 			color: var(--accent-color);
@@ -36,9 +35,7 @@
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-	
 	.navigation__link--current::after {
 		content: "";
 		position: absolute;

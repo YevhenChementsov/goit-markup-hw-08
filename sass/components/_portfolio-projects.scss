@@ -1,5 +1,4 @@
 .project {
-
 	&__wrapper-link {
 		display: flex;
 		flex-direction: column;
@@ -28,7 +27,6 @@
 }
 
 .overlay {
-
 	&__text {
 		position: absolute;
 		top: 0;
@@ -58,7 +56,6 @@
 }
 
 .box {
-
 	&__title {
 		color: var(--primary-color);
 		font-weight: bold;

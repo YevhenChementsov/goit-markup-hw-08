@@ -1,5 +1,4 @@
 .social-list {
-
 	&__item:not(:last-child) {
 		margin-right: 10px;
 	}
@@ -27,7 +26,7 @@
 
 		.social-list__link:hover &,
 		.social-list__link:focus & {
-		fill: var(--primary-white-color);
+			fill: var(--primary-white-color);
 		}
 	}
 }

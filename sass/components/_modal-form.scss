@@ -1,5 +1,4 @@
 .form {
-
 	&__text {
 		margin-bottom: 12px;
 		font-size: 20px;
@@ -76,7 +75,7 @@
 
 		&:focus {
 			outline: none;
-			border-color: var(--accent-color);  
+			border-color: var(--accent-color);
 		}
 
 		&::placeholder {
@@ -130,7 +129,7 @@
 		padding-right: 55px;
 		padding-bottom: 10px;
 		padding-left: 56px;
-		
+
 		&:hover,
 		&:focus {
 			background-color: #188ce8;
@@ -140,22 +139,17 @@
 	}
 }
 
-
 @media screen and (max-width: 479px) {
-
 	.form__check {
 		font-size: 7px;
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-	
 	.form {
-
 		&__text {
-		font-size: 20px;
-		line-height: 1.15;
+			font-size: 20px;
+			line-height: 1.15;
 		}
 
 		&__check {

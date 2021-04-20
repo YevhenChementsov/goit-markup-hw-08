@@ -6,19 +6,14 @@
 	}
 }
 
-
 @media screen and (max-width: 767px) {
-	
 	.features__item:not(:first-child) {
 		margin-top: 30px;
 	}
 }
 
-
 @media screen and (min-width: 768px) {
-
 	.features {
-		
 		&__list {
 			display: flex;
 			flex-wrap: wrap;
@@ -32,12 +27,10 @@
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-
 	.features {
 		padding-top: 94px;
-		
+
 		&__item {
 			flex-basis: calc(100% / 4 - 30px);
 		}

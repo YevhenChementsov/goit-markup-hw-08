@@ -22,12 +22,12 @@
 	}
 
 	&__button {
-		margin-top: 20px;	
+		margin-top: 20px;
 		padding-top: 10px;
 		padding-right: 28px;
 		padding-bottom: 10px;
 		padding-left: 29px;
-		
+
 		&:hover,
 		&:focus {
 			background-color: #188ce8;
@@ -41,35 +41,29 @@
 	}
 }
 
-
 @media screen and (max-width: 767px) {
-	
 	.subscribe-form__input {
 		width: 100%;
 	}
 }
 
-
 @media screen and (min-width: 768px) {
-	
 	.subscribe-form__input {
 		width: 450px;
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-
-	.subscribe-form{
+	.subscribe-form {
 		display: flex;
 		align-items: center;
 	}
-	
+
 	.subscribe-form__input {
 		width: 100%;
 	}
 
-	.subscribe-form__button	{
+	.subscribe-form__button {
 		display: flex;
 		align-items: center;
 		margin-top: 0;

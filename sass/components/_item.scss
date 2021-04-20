@@ -1,5 +1,4 @@
 .item {
-
 	&__icon-box {
 		display: flex;
 		justify-content: center;
@@ -39,9 +38,7 @@
 	}
 }
 
-
 @media screen and (min-width: 768px) {
-	
 	.item__subtitle {
 		text-align: left;
 	}

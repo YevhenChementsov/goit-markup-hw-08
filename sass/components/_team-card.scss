@@ -1,5 +1,4 @@
 .card {
-
 	&__image {
 		width: 100%;
 	}
@@ -10,7 +9,7 @@
 		align-items: center;
 		width: 100%;
 		padding-top: 30px;
-		padding-bottom: 24px;		
+		padding-bottom: 24px;
 	}
 
 	&__name {
@@ -42,9 +41,7 @@
 	}
 }
 
-
 @media screen and (min-width: 768px) {
-
 	.card__description {
 		padding-top: 30px;
 		padding-right: 74px;
@@ -53,9 +50,7 @@
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-	
 	.card__description {
 		padding-top: 30px;
 		padding-right: 32px;

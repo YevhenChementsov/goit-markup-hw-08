@@ -41,7 +41,7 @@
 		transition-property: background-color;
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-		
+
 		&:hover,
 		&:focus {
 			background-color: var(--accent-color);
@@ -53,28 +53,21 @@
 	}
 }
 
-
 @media screen and (min-width: 768px) {
-
 	.page-footer__list {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
-
 	}
 }
 
-
 @media screen and (max-width: 1199px) {
-	
 	.page-footer__item:nth-child(3) {
 		padding-bottom: 60px;
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-	
 	.page-footer__list {
 		flex-wrap: nowrap;
 		justify-content: start;
@@ -93,6 +86,6 @@
 
 		&:nth-child(3) {
 			width: 100%;
-		}		
+		}
 	}
 }

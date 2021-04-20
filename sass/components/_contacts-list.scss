@@ -24,7 +24,6 @@
 	}
 }
 
-
 .tel {
 	color: var(--secondary-color);
 	font-weight: 500;
@@ -51,9 +50,7 @@
 	}
 }
 
-
 @media screen and (min-width: 768px) {
-
 	.mail {
 		font-size: 12px;
 	}
@@ -63,9 +60,7 @@
 	}
 }
 
-
 @media screen and (min-width: 1200px) {
-
 	.mail {
 		display: inline-flex;
 		align-items: center;
@@ -79,7 +74,7 @@
 			height: 12px;
 		}
 	}
-	
+
 	.tel {
 		display: inline-flex;
 		align-items: center;
